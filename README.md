@@ -39,7 +39,7 @@ Pri razvoju sva uporabila naslednje tehnologije:
 ## Posnetki zaslonov
 ### Osnovni kalkulator
 
-[Screenshot_20241124_204411](https://github.com/user-attachments/assets/ac106a3f-b5bf-4d8d-8a2b-0563dee2d51d)
-![Screenshot_20241124_204402](https://github.com/user-attachments/assets/b89f9589-0e61-4d03-88d3-34f3c6a2a94a)
-![Screenshot_20241124_204344](https://github.com/user-attachments/assets/1fb3eb34-ec3c-433c-b682-19b7f3547490)
-![Screenshot_20241124_204302](https://github.com/user-attachments/assets/3ac33df1-94a9-4e30-8772-795c5b95d58e)
+![](https://github.com/user-attachments/assets/ac106a3f-b5bf-4d8d-8a2b-0563dee2d51d)  |  ![](https://github.com/user-attachments/assets/b89f9589-0e61-4d03-88d3-34f3c6a2a94a)
+
+![](https://github.com/user-attachments/assets/1fb3eb34-ec3c-433c-b682-19b7f3547490)  |  ![](https://github.com/user-attachments/assets/3ac33df1-94a9-4e30-8772-795c5b95d58e)
+
