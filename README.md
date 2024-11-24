@@ -21,7 +21,7 @@ Pri razvoju sva uporabila naslednje tehnologije:
 ---
 
 ## Povezava do repozitorija
-[Kliknite tukaj za dostop do repozitorija na GitHubu](https://github.com/zanzrimsek56/kalkulator)
+[Kliknite tukaj za dostop do repozitorija na GitHubu]([https://github.com/wirexid/Kalkulator])
 
 ---
 
