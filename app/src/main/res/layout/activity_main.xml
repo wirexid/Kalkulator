@@ -20,16 +20,18 @@
             android:id="@+id/workings"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text=""
             android:lines="2"
             android:maxLines="2"
-            android:textColor="@color/white"
+            android:text=""
             android:textAlignment="textEnd"
+            android:textColor="@color/white"
             android:textSize="25sp"
             app:layout_constraintBottom_toTopOf="@id/results"
+            app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.277" />
 
         <TextView
             android:id="@+id/results"
@@ -42,11 +44,11 @@
             android:textColor="@color/white"
             android:textSize="40sp"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintHorizontal_bias="0.501"
+            app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.698" />
+            app:layout_constraintVertical_bias="0.732" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -65,9 +67,11 @@
             android:text="⌫"/>
 
         <Button
+            android:id="@+id/btnCon"
             style="@style/buttonNumber"
-            android:text=""
-            tools:ignore="SpeakableTextPresentCheck" />
+            android:text="CON" />
+            <!--android:onClick=""-->
+
         <Button
             style="@style/buttonOperator"
             android:text="/"/>

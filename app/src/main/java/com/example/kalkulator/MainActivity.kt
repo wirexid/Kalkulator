@@ -1,6 +1,7 @@
 package com.example.kalkulator
 
 import android.app.Activity
+import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -31,6 +32,12 @@ class MainActivity : ComponentActivity() {
         val view = binding.root
         setContentView(view)
 
+        val conButton: Button = binding.btnCon
+        conButton.setOnClickListener {
+            val intent = Intent(this, Converter::class.java)
+            startActivity(intent)
+        }
+
     }
 
 
@@ -58,11 +65,11 @@ class MainActivity : ComponentActivity() {
     }
     fun backSpaceAction(view: View) {
         val length = binding.workings.length()
-        if (length > 8)
+        if (length > 0)
             binding.workings.text = binding.workings.text.subSequence(0, length - 1)
     }
     fun equalsAction(view: View) {
-        binding.workings.text = calculateResults()
+        binding.results.text = calculateResults()
     }
 
     private fun calculateResults(): String {
