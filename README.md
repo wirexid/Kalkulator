@@ -7,7 +7,8 @@
 ---
 
 ## Opis projekta
-Ta projekt je preprost mobilni kalkulator, ki omogoča izvajanje osnovnih matematičnih operacij (*, +, -, /). Aplikacija je zasnovana tako, da je enostavna za uporabo in ponuja intuitiven uporabniški vmesnik. V prvi fazi vključuje osnovne funkcionalnosti kalkulatorja, kasneje pa bo razširjena z dodatnimi funkcionalnostmi, kot so pretvorbe merskih enot in druge uporabne možnosti.
+Ta projekt je preprost mobilni kalkulator, ki omogoča izvajanje osnovnih matematičnih operacij (*, +, -, /), ter vključuje tudi funkcionalnost za pretvorbo merskih enot. 
+Aplikacija je zasnovana tako, da je enostavna za uporabo in ponuja enostaven uporabniški vmesnik, primeren za vsakodnevno uporabo.
 
 ---
 
@@ -26,13 +27,19 @@ Pri razvoju sva uporabila naslednje tehnologije:
 ---
 
 ## Funkcionalnosti
-1. **Prvi zaslon: Osnovni kalkulator**:
-   - Uporabniški vmesnik za osnovne operacije (*, +, -, /).
-   - Možnost vnosa števil in prikaza rezultata na zaslonu.
+1. **Prvi zaslon: Kalkulator**:
+   - Podpira osnovne matematične operacije: seštevanje, odštevanje, množenje in deljenje.
+   - Vključuje funkcijo za čiščenje zaslona („AC“) in brisanje zadnje vnesene številke („⌂“).
+   - Gumb „=“ izračuna rezultat na podlagi vnesenega izraza.
 
-2. **Drugi zaslon: Pretvorbe merskih enot (TBD)**:
-   - Dodatne funkcionalnosti za pretvorbo merskih enot (npr. dolžina, teža, temperatura).
-   - Možnost izbire tipa pretvorbe in prikaz rezultata.
+
+2. **Drugi zaslon: Pretvornik merskih enot**:
+   Omogoča pretvorbo med naslednjimi enotami:
+   - Kilogrami v funte in obratno
+   - Metri v noge in obratno
+   - Sekunde v ure in obratno
+   Vnos vrednosti, izbira enot in prikaz rezultata na uporabniškem vmesniku.
+
 
 ---
 
